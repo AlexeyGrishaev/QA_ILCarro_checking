@@ -97,7 +97,7 @@ public class RegistrationTests extends TestBase{
                 .lastName("sev")
                 .email("locker"+i+"@gmail.com")
                 .password("Ssnow123")
-                .build();
+                .build();//s
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
